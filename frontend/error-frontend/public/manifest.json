@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Error",
+    "version": "1.0.0",
+    "description": "This extension is used to record your website acitivies",
+    "action": {
+        "default_popup": "index.html"
+    },
+    "permissions": [
+        "scripting"
+    ],
+    "host_permissions": [
+        "http://*/*",
+        "https://*/*"
+    ]
+}
